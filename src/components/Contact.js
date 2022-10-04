@@ -83,7 +83,7 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-instagram-rect" />
                     <span>
-                      <a href="https://www.instagram.com">@deburkyconcept</a>
+                      <a href="https://www.instagram.com/deburkyconsept">@deburkyconcept</a>
                     </span>
                   </div>
                 </li>
@@ -98,7 +98,7 @@ const Contact = () => {
                 >
                   <div
                     className="returnmessage"
-                    data-success="Your message has been received, We will contact you soon."
+                    data-success="Mesajın iletildi, en kısa sürede dönüş sağlayacağız!"
                   />
                   <div
                     className={error ? "empty_notice" : "returnmessage"}
@@ -106,8 +106,8 @@ const Contact = () => {
                   >
                     <span>
                       {error
-                        ? "Please Fill Required Fields"
-                        : "Your message has been received, We will contact you soon."}
+                        ? "Lütfen gerekli yerleri doldurun."
+                        : "Mesajın iletildi, en kısa sürede dönüş sağlayacağız!"}
                     </span>
                   </div>
                   <div className="first">
@@ -117,7 +117,7 @@ const Contact = () => {
                           <input
                             id="name"
                             type="text"
-                            placeholder="Name"
+                            placeholder="İsim"
                             name="name"
                             onChange={(e) => onChange(e)}
                             value={name}
@@ -142,14 +142,14 @@ const Contact = () => {
                   <div className="last">
                     <textarea
                       id="message"
-                      placeholder="Message"
+                      placeholder="İletiniz"
                       name="message"
                       onChange={(e) => onChange(e)}
                       value={message}
                     />
                   </div>
                   <div className="edrea_tm_button">
-                    <input className="a" type="submit" value="Submit Message" />
+                    <input className="a" type="submit" value="Mesajı Gönder" />
                   </div>
                   {/* If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  */}
                 </form>
