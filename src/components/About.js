@@ -3,22 +3,18 @@ import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
 
 const aboutData = {
-  firstName: "David",
-  lastName: "Parker",
-  bithday: "01.07.1990",
-  address: "Avon str. 22, NYC, USA",
-  phn: "+77 022 155 02 02",
-  email: "example@gmail.com",
+  firstName: "Burak",
+  lastName: "Tekelioğlu",
+  bithday: "1970 Muğla",
+  address: "Urla Sanat Sokağı",
+  phn: "+90 532 409 16 55",
+  email: "info@deburky.com",
   serviceLists: [
-    "Website Development",
-    "Digital Experience",
-    "Content Marketing",
-    "Social Media Design",
-    "Shared Web Hosting",
+    "Deburky Sanat Atölyesi",
   ],
   skills: {
     programming: [
-      { name: "WordPress", value: "95" },
+      { name: "", value: "" },
       { name: "JavaScript", value: "80" },
       { name: "Angular", value: "90" },
     ],
