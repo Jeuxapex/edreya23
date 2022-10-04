@@ -131,7 +131,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               <div className="about_title">
                 <h3>
                   <span>
-                    Working <span className="coloring">Timeline</span>
+                   Çalışmalarımız
                   </span>
                 </h3>
               </div>
@@ -155,112 +155,8 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </ul>
               </div>
             </div>
-            <div className="partners">
-              <div className="about_title">
-                <h3>
-                  <span>
-                    My <span className="coloring">Partners</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="list">
-                <ul>
-                  {aboutData &&
-                    aboutData.partnersLogos &&
-                    aboutData.partnersLogos.map((logo, i) => (
-                      <li key={i}>
-                        <div className="list_inner">
-                          <img src={logo} alt="" />
-                          <a className="cavani_tm_full_link" href="#" />
-                        </div>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            </div>
-            <div className="testimonial">
-              <div className="about_title">
-                <h3>
-                  <span>
-                    Clients <span className="coloring">Feedback</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="list">
-                <Swiper {...testimonialSlider} className="owl-carousel">
-                  <SwiperSlide>
-                    <div className="list_inner">
-                      <div className="text">
-                        <i className="icon-quote-left" />
-                        <p>
-                          Beautiful minimalist design and great, fast response
-                          with support. Highly recommend. Thanks Marketify!
-                        </p>
-                      </div>
-                      <div className="details">
-                        <div className="image">
-                          <div
-                            className="main"
-                            data-img-url="img/testimonials/1.jpg"
-                          />
-                        </div>
-                        <div className="info">
-                          <h3>Alexander Walker</h3>
-                          <span>Graphic Designer</span>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="list_inner">
-                      <div className="text">
-                        <i className="icon-quote-left" />
-                        <p>
-                          These people really know what they are doing! Great
-                          customer support availability and supperb kindness.
-                        </p>
-                      </div>
-                      <div className="details">
-                        <div className="image">
-                          <div
-                            className="main"
-                            data-img-url="img/testimonials/2.jpg"
-                          />
-                        </div>
-                        <div className="info">
-                          <h3>Armin Van Buuren</h3>
-                          <span>Content Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="list_inner">
-                      <div className="text">
-                        <i className="icon-quote-left" />
-                        <p>
-                          I had a little problem and the support was just
-                          awesome to quickly solve the situation. And keep going
-                          on.
-                        </p>
-                      </div>
-                      <div className="details">
-                        <div className="image">
-                          <div
-                            className="main"
-                            data-img-url="img/testimonials/3.jpg"
-                          />
-                        </div>
-                        <div className="info">
-                          <h3>Baraka Clinton</h3>
-                          <span>English Teacher</span>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-              </div>
-            </div>
+       
+          
           </div>
         </div>
       </div>
