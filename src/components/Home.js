@@ -17,8 +17,9 @@ const Home = ({ activeWithBtn }) => {
         <div className="edrea_tm_home">
         <div className="image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/1.jpg" />
               </div>
+    </div>
     
           <h3 className="name">
             {homeData.firstName}{" "}
