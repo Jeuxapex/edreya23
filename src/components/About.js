@@ -12,18 +12,6 @@ const aboutData = {
   serviceLists: [
     "Deburky Sanat Atölyesi",
   ],
-  skills: {
-    programming: [
-      { name: "", value: "" },
-      { name: "JavaScript", value: "80" },
-      { name: "Angular", value: "90" },
-    ],
-    language: [
-      { name: "English", value: "95" },
-      { name: "Russian", value: "80" },
-      { name: "Arabic", value: "90" },
-    ],
-  },
   education: [
     { year: "2014 - 2016", unv: "Oxford Univercity", degree: "Master Degree" },
     { year: "2010 - 2014", unv: "Texas Univercity", degree: "Bachelor Degree" },
@@ -70,16 +58,14 @@ const About = () => {
                   {aboutData.firstName}{" "}
                   <span className="coloring">{aboutData.lastName}</span>
                 </h3>
-                <h3 className="job">
+                <h3>Art
                   <AnimatedText />
                 </h3>
               </div>
               <div className="text">
                 <p>
-                  My name is <span>David Parker.</span> foto,
-                  and {`I'm`} very passionate and dedicated to my work. With 20
-                  years experience as a professional a graphic designer, I have
-                  acquired the skills and knowledge.
+                  1970 yılında Muğla’da doğan <span>R.Burak Tekelioğlu</span> ilk, orta ve lise öğrenim hayatını Muğla’da tamamladı. Üniversite öğrenimine Bilkent Üniversitesi GSF İç Mimarlık bölümünde başlayıp Yeditepe Üniversitesi GSF İç Mimarlık bölümünden mezun oldu.Uzun yıllar mimari projelerde yer alarak İç mimarlık mesleğine tasarımları ile devam etti.  Muammer Yanmaz Atölyesi ’40 Haramiler’ topluluğunda profesyonel fotoğrafçılık eğitimi aldı. Yaklaşık 3 yıl boyunca yurtiçi ve yurtdışı  sokak portresi alanında çekimler yaptı.Sonrasında üniversite yıllarında başlayan, kendi yarattığı karakter çizimleri ile çağdaş sanatı birleştirerek sentezlediği resim ve heykel çalışmalarına ağırlık verdi. 2018 yılında Urla Sanat Sokağında ‘DEBURKY’ Sanat Atölyesini kurdu. Yurtiçi ve yurtdışı resim ve seramik eserlerinin  yer aldığı sergilere katıldı. Sanat çalışmalarında varoluş , bilinçaltı ve insan, zaman düşleri ,şehir ve yalnızlık  ,kökler gibi öznel duyuları kendine özgü yorumladı.Sanatçı çalışmalarına Urla’da aynı zamanda sanat galerisi olan ‘Deburky Sanat Atölyesinde’ devam etmektedir.
+
                 </p>
               </div>
               <div className="edrea_tm_button">
