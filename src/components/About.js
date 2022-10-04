@@ -74,7 +74,7 @@ const About = () => {
                   {aboutData.firstName}{" "}
                   <span className="coloring">{aboutData.lastName}</span>
                 </h3>
-                <h3 className="job">
+                <h3>Art 
                   <AnimatedText />
                 </h3>
               </div>
