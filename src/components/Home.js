@@ -24,7 +24,7 @@ const Home = ({ activeWithBtn }) => {
           </h3>
           <div className="edrea_tm_button transition_link">
             <a href="#contact" onClick={() => changeNav("contact")}>
-              iletişime geç
+              iletişime geç 
             </a>
           </div>
         </div>
