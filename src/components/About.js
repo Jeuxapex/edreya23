@@ -76,7 +76,7 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>David Parker.</span> I am a graphic designer,
+                  My name is <span>David Parker.</span> foto,
                   and {`I'm`} very passionate and dedicated to my work. With 20
                   years experience as a professional a graphic designer, I have
                   acquired the skills and knowledge.
