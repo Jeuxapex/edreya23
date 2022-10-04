@@ -58,7 +58,7 @@ const Contact = () => {
                     <i className="icon-location" />
                     <span>
                       <a href="#" className="href_location">
-                        Avon str. 22, NYC, USA
+                        Urla Sanat Sokağı
                       </a>
                     </span>
                   </div>
@@ -67,7 +67,7 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-phone" />
                     <span>
-                      <a href="#">+77 022 155 02 02</a>
+                      <a href="#">+90 532 409 16 55</a>
                     </span>
                   </div>
                 </li>
@@ -75,15 +75,15 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="mailto:example@gmail.com">example@gmail.com</a>
+                      <a href="mailto:info@deburky.com">info@deburky.com</a>
                     </span>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-facebook-rect" />
+                    <i className="icon-instagram-rect" />
                     <span>
-                      <a href="https://www.facebook.com">@facebookNick</a>
+                      <a href="https://www.instagram.com">@deburkyconcept</a>
                     </span>
                   </div>
                 </li>
