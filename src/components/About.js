@@ -79,15 +79,12 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>David Parker.</span> I am a graphic designer,
-                  and {`I'm`} very passionate and dedicated to my work. With 20
-                  years experience as a professional a graphic designer, I have
-                  acquired the skills and knowledge.
+                  1970 yılında Muğla’da doğan <span>R.Burak Tekelioğlu</span> ilk, orta ve lise öğrenim hayatını Muğla’da tamamladı. Üniversite öğrenimine Bilkent Üniversitesi GSF İç Mimarlık bölümünde başlayıp Yeditepe Üniversitesi GSF İç Mimarlık bölümünden mezun oldu.Uzun yıllar mimari projelerde yer alarak İç mimarlık mesleğine tasarımları ile devam etti.  Muammer Yanmaz Atölyesi ’40 Haramiler’ topluluğunda profesyonel fotoğrafçılık eğitimi aldı. 
                 </p>
               </div>
               <div className="edrea_tm_button">
                 <a href="#" onClick={() => setPopup(true)}>
-                  Learn More
+                  Devamını gör
                 </a>
               </div>
             </div>
