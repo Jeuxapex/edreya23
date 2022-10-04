@@ -18,7 +18,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
             <div className="author">
               <div className="avatar_image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/1.jpg" />
               </div>
               <div className="short">
                 <h3 className="name">
@@ -77,9 +77,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </ul>
             </div>
             <div className="edrea_tm_button full">
-              <a href="img/about/1.jpg" download>
-                Download CV
-              </a>
+     
             </div>
           </div>
         </div>
@@ -95,106 +93,12 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  Hello everybody! My name is <span>David Parker.</span> I am a
-                  graphic designer, and {`I'm`} very passionate and dedicated to
-                  my work. With 20 years experience as a professional a graphic
-                  designer, I have acquired the skills and knowledge.
+                  1970 yılında Muğla’da doğan R.Burak Tekelioğlu ilk, orta ve lise öğrenim hayatını Muğla’da tamamladı. Üniversite öğrenimine Bilkent Üniversitesi GSF İç Mimarlık bölümünde başlayıp Yeditepe Üniversitesi GSF İç Mimarlık bölümünden mezun oldu.Uzun yıllar mimari projelerde yer alarak İç mimarlık mesleğine tasarımları ile devam etti.  Muammer Yanmaz Atölyesi ’40 Haramiler’ topluluğunda profesyonel fotoğrafçılık eğitimi aldı. Yaklaşık 3 yıl boyunca yurtiçi ve yurtdışı  sokak portresi alanında çekimler yaptı.Sonrasında üniversite yıllarında başlayan, kendi yarattığı karakter çizimleri ile çağdaş sanatı birleştirerek sentezlediği resim ve heykel çalışmalarına ağırlık verdi. 2018 yılında Urla Sanat Sokağında ‘DEBURKY’ Sanat Atölyesini kurdu. Yurtiçi ve yurtdışı resim ve seramik eserlerinin  yer aldığı sergilere katıldı. Sanat çalışmalarında varoluş , bilinçaltı ve insan, zaman düşleri ,şehir ve yalnızlık  ,kökler gibi öznel duyuları kendine özgü yorumladı.Sanatçı çalışmalarına Urla’da aynı zamanda sanat galerisi olan ‘Deburky Sanat Atölyesinde’ devam etmektedir.
+
                 </p>
               </div>
             </div>
-            <div className="service">
-              <div className="about_title">
-                <h3>
-                  <span>
-                    Quality <span className="coloring">Services</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="list">
-                <ul>
-                  {aboutData.serviceLists &&
-                    aboutData.serviceLists.map((service, i) => (
-                      <li key={i}>
-                        <i className="icon-right-dir" />
-                        {service}
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            </div>
-            <div className="prog_skill">
-              <div className="about_title">
-                <h3>
-                  <span>
-                    Programming <span className="coloring">Skills</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="oki_progress">
-                {aboutData.skills &&
-                  aboutData.skills.programming &&
-                  aboutData.skills.programming.map((programming, i) => (
-                    <div
-                      key={i}
-                      className="progress_inner skillsInner___"
-                      data-value={95}
-                    >
-                      <span>
-                        <span className="label">{programming.name}</span>
-                        <span
-                          className="number"
-                          style={{ right: `${100 - programming.value}%` }}
-                        >
-                          {programming.value}%
-                        </span>
-                      </span>
-                      <div className="background">
-                        <div className="bar open">
-                          <div
-                            className="bar_in"
-                            style={{ width: `${programming.value}%` }}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-              </div>
-            </div>
-            <div className="lang_skill">
-              <div className="about_title">
-                <h3>
-                  <span>
-                    Language <span className="coloring">Skills</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="circular_progress_bar">
-                <ul>
-                  {aboutData.skills &&
-                    aboutData.skills.language &&
-                    aboutData.skills.language.map((language, i) => (
-                      <li key={i}>
-                        <div className="list_inner">
-                          <div className="myCircle" data-value="0.95">
-                            <CircularProgressbar
-                              value={language.value}
-                              text={`${language.value}%`}
-                              strokeWidth={2}
-                              styles={buildStyles({
-                                // Colors
-                                pathColor: color,
-                              })}
-                            />
-                          </div>
-                          <div className="title">
-                            <span>{language.name}</span>
-                          </div>
-                        </div>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            </div>
+            
             <div className="timeline">
               <div className="about_title">
                 <h3>
