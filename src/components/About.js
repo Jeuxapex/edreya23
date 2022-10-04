@@ -42,7 +42,7 @@ const About = () => {
             <div className="left">
               <div className="image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/1.jpg" />
               </div>
             </div>
             <div className="right">
