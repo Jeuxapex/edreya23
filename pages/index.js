@@ -1,4 +1,4 @@
-import About from "../src/components/About";
+import Hakkında from "../src/components/About";
 import Contact from "../src/components/Contact";
 import Home from "../src/components/Home";
 import News from "../src/components/News";
@@ -12,7 +12,7 @@ const Index = () => {
       <Home />
       {/* /HOME */}
       {/* ABOUT */}
-      <About />
+      <Hakkında />
       {/* /ABOUT */}
       {/* PORTFOLIO */}
       <Portfolio />
