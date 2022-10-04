@@ -47,7 +47,7 @@ const Contact = () => {
         <div className="edrea_tm_contact">
           <div className="edrea_tm_main_title">
             <h3>
-              Get in <span className="coloring">Touch</span>
+              İletişime <span className="coloring">Geç</span>
             </h3>
           </div>
           <div className="wrapper">
@@ -83,7 +83,7 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-instagram-rect" />
                     <span>
-                      <a href="https://www.instagram.com/deburkyconsept">@deburkyconcept</a>
+                      <a href="https://www.instagram.com/deburkyconcept">@deburkyconcept</a>
                     </span>
                   </div>
                 </li>
