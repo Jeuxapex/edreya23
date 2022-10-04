@@ -19,27 +19,27 @@ const Header = () => {
           <ul className="transition_link">
             <li className={activeNav("home")}>
               <a href="#home" onClick={() => changeNav("home")}>
-                Home
+                Anasayfa
               </a>
             </li>
             <li className={activeNav("about")}>
               <a href="#about" onClick={() => changeNav("about")}>
-                About
+                Hakkımızda
               </a>
             </li>
             <li className={activeNav("portfolio")}>
               <a href="#portfolio" onClick={() => changeNav("portfolio")}>
-                Portfolio
+                Portfolyo
               </a>
             </li>
             <li className={activeNav("news")}>
               <a href="#news" onClick={() => changeNav("news")}>
-                News
+                Sergi
               </a>
             </li>
             <li className={activeNav("contact")}>
               <a href="#contact" onClick={() => changeNav("contact")}>
-                Contact
+                İletişim
               </a>
             </li>
           </ul>
