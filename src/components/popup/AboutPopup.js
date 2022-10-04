@@ -98,35 +98,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </p>
               </div>
             </div>
-            
-            <div className="timeline">
-              <div className="about_title">
-                <h3>
-                  <span>
-                    Education <span className="coloring">Timeline</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="list">
-                <ul>
-                  {aboutData &&
-                    aboutData.education &&
-                    aboutData.education.map((edu, i) => (
-                      <li key={i}>
-                        <div className="list_inner">
-                          <div className="time">
-                            <span>{edu.year}</span>
-                          </div>
-                          <div className="place">
-                            <h3>{edu.unv}</h3>
-                            <span>{edu.degree}</span>
-                          </div>
-                        </div>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            </div>
+           
             <div className="timeline">
               <div className="about_title">
                 <h3>
