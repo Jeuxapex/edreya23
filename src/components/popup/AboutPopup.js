@@ -143,7 +143,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     </Modal>
   );
 };
