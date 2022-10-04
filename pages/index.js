@@ -1,27 +1,27 @@
-import Hakkında from "../src/components/About";
-import Contact from "../src/components/Contact";
-import Home from "../src/components/Home";
+import Hakkinda from "../src/components/About";
+import Iletisim from "../src/components/Contact";
+import Anasayfa from "../src/components/Home";
 import News from "../src/components/News";
-import Portfolio from "../src/components/Portfolio";
+import Portfolyo from "../src/components/Portfolio";
 import Layout from "../src/layouts/Layout";
 
 const Index = () => {
   return (
     <Layout>
       {/* HOME */}
-      <Home />
+      <Anasayfa />
       {/* /HOME */}
       {/* ABOUT */}
-      <Hakkında />
+      <Hakkinda />
       {/* /ABOUT */}
       {/* PORTFOLIO */}
-      <Portfolio />
+      <Portfolyo />
       {/* /PORTFOLIO */}
       {/* NEWS */}
       <News />
       {/* /NEWS */}
       {/* CONTACT */}
-      <Contact />
+      <Iletisim />
     </Layout>
   );
 };
