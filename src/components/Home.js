@@ -19,7 +19,7 @@ const Home = ({ activeWithBtn }) => {
             {homeData.firstName}{" "}
             <span className="coloring">{homeData.lastName}</span>
           </h3>
-          <h3>Art <AnimatedText />
+          <h3>Art has no rules so do i.
           </h3>
           <div className="edrea_tm_button transition_link">
             <a href="#contact" onClick={() => changeNav("contact")}>
