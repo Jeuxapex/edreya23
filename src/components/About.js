@@ -3,15 +3,31 @@ import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
 
 const aboutData = {
-  firstName: "Burak",
-  lastName: "Tekelioğlu",
-  bithday: "1970 Muğla",
-  address: "Urla Sanat Sokağı",
-  phn: "+90 532 409 16 55",
-  email: "info@deburky.com",
+  firstName: "David",
+  lastName: "Parker",
+  bithday: "01.07.1990",
+  address: "Avon str. 22, NYC, USA",
+  phn: "+77 022 155 02 02",
+  email: "example@gmail.com",
   serviceLists: [
-    "Deburky Sanat Atölyesi",
+    "Website Development",
+    "Digital Experience",
+    "Content Marketing",
+    "Social Media Design",
+    "Shared Web Hosting",
   ],
+  skills: {
+    programming: [
+      { name: "WordPress", value: "95" },
+      { name: "JavaScript", value: "80" },
+      { name: "Angular", value: "90" },
+    ],
+    language: [
+      { name: "English", value: "95" },
+      { name: "Russian", value: "80" },
+      { name: "Arabic", value: "90" },
+    ],
+  },
   education: [
     { year: "2014 - 2016", unv: "Oxford Univercity", degree: "Master Degree" },
     { year: "2010 - 2014", unv: "Texas Univercity", degree: "Bachelor Degree" },
@@ -58,14 +74,16 @@ const About = () => {
                   {aboutData.firstName}{" "}
                   <span className="coloring">{aboutData.lastName}</span>
                 </h3>
-                <h3>Art
+                <h3 className="job">
                   <AnimatedText />
                 </h3>
               </div>
               <div className="text">
                 <p>
-                  1970 yılında Muğla’da doğan <span>R.Burak Tekelioğlu</span> ilk, orta ve lise öğrenim hayatını Muğla’da tamamladı. Üniversite öğrenimine Bilkent Üniversitesi GSF İç Mimarlık bölümünde başlayıp Yeditepe Üniversitesi GSF İç Mimarlık bölümünden mezun oldu.Uzun yıllar mimari projelerde yer alarak İç mimarlık mesleğine tasarımları ile devam etti.  Muammer Yanmaz Atölyesi ’40 Haramiler’ topluluğunda profesyonel fotoğrafçılık eğitimi aldı. Yaklaşık 3 yıl boyunca yurtiçi ve yurtdışı  sokak portresi alanında çekimler yaptı.Sonrasında üniversite yıllarında başlayan, kendi yarattığı karakter çizimleri ile çağdaş sanatı birleştirerek sentezlediği resim ve heykel çalışmalarına ağırlık verdi. 2018 yılında Urla Sanat Sokağında ‘DEBURKY’ Sanat Atölyesini kurdu. Yurtiçi ve yurtdışı resim ve seramik eserlerinin  yer aldığı sergilere katıldı. Sanat çalışmalarında varoluş , bilinçaltı ve insan, zaman düşleri ,şehir ve yalnızlık  ,kökler gibi öznel duyuları kendine özgü yorumladı.Sanatçı çalışmalarına Urla’da aynı zamanda sanat galerisi olan ‘Deburky Sanat Atölyesinde’ devam etmektedir.
-
+                  My name is <span>David Parker.</span> I am a graphic designer,
+                  and {`I'm`} very passionate and dedicated to my work. With 20
+                  years experience as a professional a graphic designer, I have
+                  acquired the skills and knowledge.
                 </p>
               </div>
               <div className="edrea_tm_button">
