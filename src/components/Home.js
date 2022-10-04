@@ -15,9 +15,6 @@ const Home = ({ activeWithBtn }) => {
     <div className="edrea_tm_section animated" id="home">
       <div className="section_inner">
         <div className="edrea_tm_home">
-        <div className="image">
-                <div className="main" data-img-url="img/1.jpg" />
-
           <h3 className="name">
             {homeData.firstName}{" "}
             <span className="coloring">{homeData.lastName}</span>
@@ -29,8 +26,6 @@ const Home = ({ activeWithBtn }) => {
               iletişime geç 
             </a>
           </div>
-              </div>
-            </div>
         </div>
       </div>
     </div>
