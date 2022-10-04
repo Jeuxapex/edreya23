@@ -6,8 +6,8 @@ import PortfolioModal from "./popup/PortfolioModal";
 const Portfolio = () => {
   const [modal, setModal] = useState(false);
   return (
-    <Fragment>      
-    <PortfolioModal open={modal} close={() => setModal(false)} />
+        <Fragment>      
+      <PortfolioModal open={modal} close={() => setModal(false)} />
       <div className="edrea_tm_section hidden animated" id="portfolio">
         <div className="section_inner">
           <div className="edrea_tm_portfolio swiper-section">
@@ -165,6 +165,8 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+    </Fragment>
+    <Fragment>      
       <PortfolioModal open={modal} close={() => setModal(false)} />
       <div className="edrea_tm_section hidden animated" id="portfolio">
         <div className="section_inner">
