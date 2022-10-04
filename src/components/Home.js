@@ -3,9 +3,9 @@ import { context } from "../context/context";
 import AnimatedText from "./AnimatedText";
 
 const homeData = {
-  firstName: "David",
-  lastName: "Parker",
-  skills: ["Designer", "Developer", "Freelancer"],
+  firstName: "Burak",
+  lastName: "Tekelioğlu",
+  skills: ["Fotoğrafçı"],
 };
 
 const Home = ({ activeWithBtn }) => {
