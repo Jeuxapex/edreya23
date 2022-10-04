@@ -12,12 +12,15 @@ const aboutData = {
   
   working: [
     {
-      year: "2018 - running",
-      company: "Envato Elements",
-      deg: "Exclusive Author",
+      year: "2022",
+      company: "Karl & Ein",
+      deg: "",
     },
-    { year: "2015 - 2018", company: "Avo Corporation", deg: "Content Manager" },
-    { year: "2012 - 2015", company: "FC Barcelona", deg: "Football Player" },
+    { year: "", company: "İsviçre Montrö",  deg: "" },
+    { year: "", company: "Patan Art", deg: "" },
+    { year: "", company: "Milano", deg: "" },
+    { year: "", company: "Paris", deg: "" },
+
   ],
   partnersLogos: [
     "img/partners/1.png",
