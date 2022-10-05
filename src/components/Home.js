@@ -15,8 +15,6 @@ const Home = ({ activeWithBtn }) => {
     <div className="edrea_tm_section animated" id="home">
      <div className="image">
       <img src="img/thumbs/1-1.jpg" alt="" />
-      <div className="main" data-img-url="img/1.jpg" />
-      </div>
       <div className="section_inner">
         <div className="edrea_tm_home">
           <h3 className="name">
@@ -26,10 +24,9 @@ const Home = ({ activeWithBtn }) => {
           <h3>Art has no rules so do i.
           </h3>
              <div className="edrea_tm_button transition_link">
-            <a href="#contact" onClick={() => changeNav("contact")}>
+            <img src="img/1.jpg" alt="" />
               Get in Touch
             </a>
-      </div>
           </div>
         </div>
       </div>
