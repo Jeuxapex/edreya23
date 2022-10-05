@@ -21,11 +21,11 @@ const Home = ({ activeWithBtn }) => {
           </h3>
           <h3>Art has no rules so do i.
           </h3>
-          <div className="edrea_tm_button transition_link">
-            <a href="#contact" onClick={() => changeNav("contact")}>
-              iletişime geç 
-            </a>
-          </div>
+              <div className="image">
+                <img src="img/thumbs/1-1.jpg" alt="" />
+                <div className="main" data-img-url="img/1.jpg" />
+              </div>
+            </div>
         </div>
       </div>
     </div>
