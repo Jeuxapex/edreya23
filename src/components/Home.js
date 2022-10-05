@@ -13,16 +13,20 @@ const Home = ({ activeWithBtn }) => {
 
   return (
     <div className="edrea_tm_section animated" id="home">
-     <div className="image">
-      <img src="img/thumbs/1-1.jpg" alt="" />
       <div className="section_inner">
         <div className="edrea_tm_home">
           <h3 className="name">
             {homeData.firstName}{" "}
             <span className="coloring">{homeData.lastName}</span>
           </h3>
-          <h3>Art has no rules so do i.
+          <h3 className="job">
+            <AnimatedText />
           </h3>
+          <div className="edrea_tm_button transition_link">
+            <a href="#contact" onClick={() => changeNav("contact")}>
+              İletişim
+            </a>
+          </div>
         </div>
       </div>
     </div>
