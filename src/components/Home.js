@@ -23,11 +23,6 @@ const Home = ({ activeWithBtn }) => {
           </h3>
           <h3>Art has no rules so do i.
           </h3>
-             <div className="edrea_tm_button transition_link">
-            <img src="img/1.jpg" alt="" />
-              Get in Touch
-            </a>
-          </div>
         </div>
       </div>
     </div>
